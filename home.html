@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aston Martin</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img
+            src="img/aston_martin_logo_icon_145844.webp"
+            alt="Aston Martin Logo"
+          />
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#vision-mission">Vision</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#leadership">Team</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main-content">
+      <section class="hero-section">
+        <h1>Aston Martin</h1>
+      </section>
+    </main>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h1>About Aston Martin</h1>
+      <p>
+        Aston Martin is a renowned luxury car manufacturer and Formula 1 team,
+        celebrated for its blend of performance, elegance, and innovation.
+        Founded in 1913 by Lionel Martin and Robert Bamford in England, the
+        company is known for its high-performance sports cars and grand tourers,
+        including iconic models like the DB series, the Vantage, and the DBX
+        SUV. Hypercars such as the Valhalla and Valkyrie showcase Aston Martin’s
+        push for engineering excellence and cutting-edge technology. With a
+        design philosophy that emphasizes elegance, British craftsmanship, and
+        innovation, Aston Martin continues to be a symbol of luxury and
+        performance.
+      </p>
+    </section>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Vision and Mission Section -->
+    <section class="vision-mission" id="vision-mission">
+      <h2>Vision and Mission</h2>
+      <h3>Vision</h3>
+      <p>
+        To redefine luxury and performance through cutting-edge innovation and
+        timeless design.
+      </p>
+      <h3>Mission</h3>
+      <p>
+        To create extraordinary cars that combine craftsmanship, elegance, and
+        advanced engineering.
+      </p>
+    </section>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Product -->
+    <section class="animated-slider" id="product">
+      <!-- Radio buttons for slide control -->
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+      <input type="radio" name="slider" id="slide3" />
+      <input type="radio" name="slider" id="slide4" />
+      <input type="radio" name="slider" id="slide5" />
+
+      <div class="slider-container">
+        <div class="slider-track">
+          <!-- Slide 1 -->
+          <div class="slide">
+            <img src="img/db12 3.jpg" alt="Aston Martin DB12" />
+            <div class="slide-caption">Aston Martin DB12</div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+            <img src="img/valour2.avif" alt="Aston Martin Valour" />
+            <div class="slide-caption">Aston Martin Valour</div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="slide">
+            <img src="img/vanquish.jpg" alt="Aston Martin Vanquish" />
+            <div class="slide-caption">Aston Martin Vanquish</div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="slide">
+            <img src="img/dbx707.jpeg" alt="Aston Martin DBX707" />
+            <div class="slide-caption">Aston Martin DBX707</div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="slide">
+            <img src="img/vantage.webp" alt="Aston Martin Vantage" />
+            <div class="slide-caption">Aston Martin Vantage</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Dots -->
+      <div class="slider-navigation">
+        <label for="slide1" class="nav-button"></label>
+        <label for="slide2" class="nav-button"></label>
+        <label for="slide3" class="nav-button"></label>
+        <label for="slide4" class="nav-button"></label>
+        <label for="slide5" class="nav-button"></label>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="leadership" id="leadership">
+      <h2>Our Team</h2>
+      <div class="team">
+        <div class="team-member">
+          <img src="img/stroll.webp" alt="CEO" />
+          <h3>Lawrence Stroll</h3>
+          <p>Executive Chairman</p>
+        </div>
+        <div class="team-member">
+          <img src="img/marco.webp" alt="CTO" />
+          <h3>Marco Mattiacci</h3>
+          <p>Chief Technology Officer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have a question or inquiries, feel free to reach out to us</p>
+      <form action="#" method="POST" class="contact-form">
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </p>
+        <p>
+          <label for="Message">Message:</label><br />
+          <textarea
+            id="Message"
+            name="Message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Company Info -->
+        <div class="footer-about">
+          <h3>About Aston Martin</h3>
+          <p>
+            Aston Martin is a symbol of British luxury and craftsmanship.
+            Explore our legacy of elegance, performance, and innovation.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#vision-mission">Vision</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#leadership">Team</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a
+              href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/astonmartin/%3Flocale%3Did_ID&ved=2ahUKEwi70_uUve2JAxUp-TgGHU3tBHIQFnoECCQQAQ&usg=AOvVaw2udPKJTuJkYBZ4LmVf5ZIP"
+              target="_blank"
+            >
+              <img src="img/Facebook_logo_(square).png" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://twitter.com/astonmartin%3Flang%3Den&ved=2ahUKEwizoLOGve2JAxWOxjgGHeONJNMQFnoECB4QAQ&usg=AOvVaw0sHoSIxip9dYsQDltptrYX"
+              target="_blank"
+            >
+              <img src="img/x.png" alt="Twitter" />
+            </a>
+            <a
+              href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/astonmartin/%3Fhl%3Den&ved=2ahUKEwi79Z7VvO2JAxUD8DgGHfhnGFgQFnoECCIQAQ&usg=AOvVaw0_PB8DoxSc0AACuCCpRxlF"
+              target="_blank"
+            >
+              <img src="img/Instagram_icon.png" alt="Instagram" />
+            </a>
+            <a
+              href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://uk.linkedin.com/company/aston-martin-lagonda-ltd&ved=2ahUKEwjkq-qOvO2JAxVeg2MGHbIkFToQFnoECBcQAQ&usg=AOvVaw0-5-fEjr_rYgPitFPRxEuW"
+              target="_blank"
+            >
+              <img src="img/linkedin.webp" alt="LinkedIn" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 M Rifqi Ramadani. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
